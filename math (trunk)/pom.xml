@@ -24,8 +24,8 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.apache.commons</groupId>
   <artifactId>commons-math3</artifactId>
-  <version>3.4-SNAPSHOT</version>
-  <name>Apache Commons Math</name>
+  <version>3.4-modified</version>
+  <name>Apache Commons Math Modified</name>
 
   <inceptionYear>2003</inceptionYear>
   <description>The Apache Commons Math project is a library of lightweight, self-contained mathematics and statistics components addressing the most common practical problems not immediately available in the Java programming language or commons-lang.</description>
@@ -44,11 +44,11 @@
   </scm>
 
   <distributionManagement>
-    <site>
-      <id>apache.website</id>
-      <name>Apache Commons Site</name>
-      <url>scm:svn:https://svn.apache.org/repos/infra/websites/production/commons/content/proper/commons-math/</url>
-    </site>
+    <repository>
+      <id>colo-vm41</id>
+      <name>colo-vm41-releases</name>
+      <url>http://colo-vm41.isi.edu:8081/artifactory/libs-release-local</url>
+    </repository>
   </distributionManagement>
 
   <developers>
