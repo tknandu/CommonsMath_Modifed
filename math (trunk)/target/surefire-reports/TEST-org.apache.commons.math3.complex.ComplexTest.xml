@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.commons.math3.complex.ComplexTest" time="0.011" tests="129" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="23.5-b02"/>
+    <property name="user.country.format" value="IN"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/nandu/Downloads/math (trunk)"/>
+    <property name="java.runtime.version" value="1.7.0_09-b05"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/v3/9l6_62855xl2r1qshsbdv1l80000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/nandu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.7.5"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/nandu"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="nandu"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_09"/>
+    <property name="java.ext.dirs" value="/Users/nandu/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/jre/lib/JObjC.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testReciprocalReal" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testReciprocalZero" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testNthRoot_cornercase_NAN_Inf" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testTanhInf" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testTanhNaN" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testConjugateNaN" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testScalarDivideInf" classname="org.apache.commons.math3.complex.ComplexTest" time="0.001"/>
+  <testcase name="testScalarDivideNaN" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testScalarMultiplyInf" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testScalarMultiplyNaN" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testDivideImaginary" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testAcosInf" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testAcosNaN" classname="org.apache.commons.math3.complex.ComplexTest" time="0.001"/>
+  <testcase name="testEqualsClass" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testAbs" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testAdd" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testCos" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testExp" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testLog" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testPow" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testSin" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testTan" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testSubtract" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testScalarAdd" classname="org.apache.commons.math3.complex.ComplexTest" time="0.001"/>
+  <testcase name="testScalarPow" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testDivideNaNInf" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testAtanI" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testAcos" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testAsin" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testAtan" classname="org.apache.commons.math3.complex.ComplexTest" time="0.001"/>
+  <testcase name="testCosh" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testSinh" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testTanh" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testAsinInf" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testAsinNaN" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testAtanInf" classname="org.apache.commons.math3.complex.ComplexTest" time="0.001"/>
+  <testcase name="testAtanNaN" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testReciprocal" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testScalarAddInf" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testScalarAddNaN" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testFloatingPointEqualsWithAllowedDelta" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testScalarPowZero" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testScalarDivide" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testDivideInf" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testDivideNaN" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testEqualsRealDifference" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testNegateNaN" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testTanhCritical" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testPowZero" classname="org.apache.commons.math3.complex.ComplexTest" time="0.001"/>
+  <testcase name="testScalarPowInf" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testScalarMultiply" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testSqrtImaginaryZero" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testSqrtRealPositive" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testEqualsNull" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testEqualsSame" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testEqualsTrue" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testSqrt1zNaN" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testSqrtRealNegative" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testScalarPowNaNBase" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testGetArgument" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testSqrtPolar" classname="org.apache.commons.math3.complex.ComplexTest" time="0.001"/>
+  <testcase name="testMultiplyNaN" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testLogZero" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testConjugate" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testFloatingPointEqualsNaN" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testMultiplyInfInf" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testNthRoot_normal_fourthRoot" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testMultiplyNaNInf" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testEqualsImaginaryDifference" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testScalarSubtractInf" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testScalarSubtractNaN" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testTanCritical" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testPowNaNBase" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testMath221" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testNthRoot_cornercase_thirdRoot_imaginaryPartEmpty" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testFloatingPointEqualsWithRelativeTolerance" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testGetArgumentInf" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testGetArgumentNaN" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testConstructorNaN" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testCoshInf" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testCoshNaN" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testPowNaNExponent" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testHashCode" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testSqrtRealZero" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testSqrtImaginaryNegative" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testFloatingPointEqualsPrecondition1" classname="org.apache.commons.math3.complex.ComplexTest" time="0.001"/>
+  <testcase name="testFloatingPointEqualsPrecondition2" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testReciprocalInf" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testReciprocalNaN" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testFloatingPointEquals" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testNthRoot_cornercase_thirdRoot_realPartZero" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testScalarDivideZero" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testScalarSubtract" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testAbsNaN" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testAddInf" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testAddNaN" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testCosInf" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testCosNaN" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testDivide" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testExpInf" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testExpNaN" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testMultiply" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testDivideReal" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testDivideZero" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testEqualsNaN" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testLogInf" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testLogNaN" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testNegate" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testPowInf" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testConjugateInfiinite" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testSinhInf" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testSinhNaN" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testSerial" classname="org.apache.commons.math3.complex.ComplexTest" time="0.002"/>
+  <testcase name="testSinInf" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testSinNaN" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testSqrt1z" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testTanInf" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testTanNaN" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testNthRoot_normal_thirdRoot" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testpowNull" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testSubtractInf" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testSubtractNaN" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testAbsInfinite" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testSqrtInf" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testSqrtNaN" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testDivideZeroZero" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testConstructor" classname="org.apache.commons.math3.complex.ComplexTest" time="0.001"/>
+  <testcase name="testScalarPowNaNExponent" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+  <testcase name="testReciprocalImaginary" classname="org.apache.commons.math3.complex.ComplexTest" time="0"/>
+</testsuite>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.commons.math3.dfp.DfpTest" time="0.687" tests="77" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="23.5-b02"/>
+    <property name="user.country.format" value="IN"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/nandu/Downloads/math (trunk)"/>
+    <property name="java.runtime.version" value="1.7.0_09-b05"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/v3/9l6_62855xl2r1qshsbdv1l80000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/nandu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.7.5"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/nandu"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="nandu"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_09"/>
+    <property name="java.ext.dirs" value="/Users/nandu/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/jre/lib/JObjC.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testAdd" classname="org.apache.commons.math3.dfp.DfpTest" time="0.002"/>
+  <testcase name="testSpecialConstructors" classname="org.apache.commons.math3.dfp.DfpTest" time="0.001"/>
+  <testcase name="testFloor" classname="org.apache.commons.math3.dfp.DfpTest" time="0"/>
+  <testcase name="testLog10" classname="org.apache.commons.math3.dfp.DfpTest" time="0"/>
+  <testcase name="testRound" classname="org.apache.commons.math3.dfp.DfpTest" time="0.002"/>
+  <testcase name="testCeil" classname="org.apache.commons.math3.dfp.DfpTest" time="0"/>
+  <testcase name="testRint" classname="org.apache.commons.math3.dfp.DfpTest" time="0.001"/>
+  <testcase name="testSqrt" classname="org.apache.commons.math3.dfp.DfpTest" time="0.002"/>
+  <testcase name="testToString" classname="org.apache.commons.math3.dfp.DfpTest" time="0.001"/>
+  <testcase name="testReciprocal" classname="org.apache.commons.math3.dfp.DfpTest" time="0.001"/>
+  <testcase name="testDivideInt" classname="org.apache.commons.math3.dfp.DfpTest" time="0"/>
+  <testcase name="testSignPredicates" classname="org.apache.commons.math3.dfp.DfpTest" time="0.001"/>
+  <testcase name="testPower10" classname="org.apache.commons.math3.dfp.DfpTest" time="0.001"/>
+  <testcase name="testCopySign" classname="org.apache.commons.math3.dfp.DfpTest" time="0.001"/>
+  <testcase name="testCompare" classname="org.apache.commons.math3.dfp.DfpTest" time="0.002"/>
+  <testcase name="testByteConstructor" classname="org.apache.commons.math3.dfp.DfpTest" time="0.001"/>
+  <testcase name="testIntValue" classname="org.apache.commons.math3.dfp.DfpTest" time="0.001"/>
+  <testcase name="testDivide" classname="org.apache.commons.math3.dfp.DfpTest" time="0.002"/>
+  <testcase name="testMultiply" classname="org.apache.commons.math3.dfp.DfpTest" time="0.001"/>
+  <testcase name="testIssue567" classname="org.apache.commons.math3.dfp.DfpTest" time="0.199"/>
+  <testcase name="testIsZero" classname="org.apache.commons.math3.dfp.DfpTest" time="0"/>
+  <testcase name="testIntConstructor" classname="org.apache.commons.math3.dfp.DfpTest" time="0"/>
+  <testcase name="testLog10K" classname="org.apache.commons.math3.dfp.DfpTest" time="0"/>
+  <testcase name="testRemainder" classname="org.apache.commons.math3.dfp.DfpTest" time="0"/>
+  <testcase name="testPower10K" classname="org.apache.commons.math3.dfp.DfpTest" time="0"/>
+  <testcase name="testLongConstructor" classname="org.apache.commons.math3.dfp.DfpTest" time="0.001"/>
+  <testcase name="testNextAfter" classname="org.apache.commons.math3.dfp.DfpTest" time="0"/>
+  <testcase name="testDivideField" classname="org.apache.commons.math3.dfp.DfpTest" time="0.014"/>
+  <testcase name="testRemainderDouble" classname="org.apache.commons.math3.dfp.DfpTest" time="0.018"/>
+  <testcase name="testGetField" classname="org.apache.commons.math3.dfp.DfpTest" time="0.001"/>
+  <testcase name="testDivideDouble" classname="org.apache.commons.math3.dfp.DfpTest" time="0.011"/>
+  <testcase name="testAbs" classname="org.apache.commons.math3.dfp.DfpTest" time="0.001"/>
+  <testcase name="testCos" classname="org.apache.commons.math3.dfp.DfpTest" time="0.001"/>
+  <testcase name="testExp" classname="org.apache.commons.math3.dfp.DfpTest" time="0.001"/>
+  <testcase name="testLog" classname="org.apache.commons.math3.dfp.DfpTest" time="0.001"/>
+  <testcase name="testSin" classname="org.apache.commons.math3.dfp.DfpTest" time="0.001"/>
+  <testcase name="testTan" classname="org.apache.commons.math3.dfp.DfpTest" time="0.002"/>
+  <testcase name="testAcosh" classname="org.apache.commons.math3.dfp.DfpTest" time="0.006"/>
+  <testcase name="testAsinh" classname="org.apache.commons.math3.dfp.DfpTest" time="0.003"/>
+  <testcase name="testAtan2" classname="org.apache.commons.math3.dfp.DfpTest" time="0.056"/>
+  <testcase name="testAtanh" classname="org.apache.commons.math3.dfp.DfpTest" time="0.002"/>
+  <testcase name="testExpm1" classname="org.apache.commons.math3.dfp.DfpTest" time="0.001"/>
+  <testcase name="testHypot" classname="org.apache.commons.math3.dfp.DfpTest" time="0.025"/>
+  <testcase name="testLog1p" classname="org.apache.commons.math3.dfp.DfpTest" time="0.002"/>
+  <testcase name="testRootN" classname="org.apache.commons.math3.dfp.DfpTest" time="0.006"/>
+  <testcase name="testScalb" classname="org.apache.commons.math3.dfp.DfpTest" time="0.13"/>
+  <testcase name="testAcos" classname="org.apache.commons.math3.dfp.DfpTest" time="0.002"/>
+  <testcase name="testAsin" classname="org.apache.commons.math3.dfp.DfpTest" time="0.002"/>
+  <testcase name="testAtan" classname="org.apache.commons.math3.dfp.DfpTest" time="0.001"/>
+  <testcase name="testCbrt" classname="org.apache.commons.math3.dfp.DfpTest" time="0.003"/>
+  <testcase name="testCosh" classname="org.apache.commons.math3.dfp.DfpTest" time="0.002"/>
+  <testcase name="testHash" classname="org.apache.commons.math3.dfp.DfpTest" time="0"/>
+  <testcase name="testSinh" classname="org.apache.commons.math3.dfp.DfpTest" time="0.001"/>
+  <testcase name="testTanh" classname="org.apache.commons.math3.dfp.DfpTest" time="0.001"/>
+  <testcase name="testAddField" classname="org.apache.commons.math3.dfp.DfpTest" time="0.01"/>
+  <testcase name="testMultiplyDouble" classname="org.apache.commons.math3.dfp.DfpTest" time="0.009"/>
+  <testcase name="testMultiplyInt" classname="org.apache.commons.math3.dfp.DfpTest" time="0.004"/>
+  <testcase name="testLinearCombinationDaFa" classname="org.apache.commons.math3.dfp.DfpTest" time="0.005"/>
+  <testcase name="testLinearCombinationFaFa" classname="org.apache.commons.math3.dfp.DfpTest" time="0.004"/>
+  <testcase name="testAddDouble" classname="org.apache.commons.math3.dfp.DfpTest" time="0.008"/>
+  <testcase name="testPowDouble" classname="org.apache.commons.math3.dfp.DfpTest" time="0.031"/>
+  <testcase name="testSubtractDouble" classname="org.apache.commons.math3.dfp.DfpTest" time="0.008"/>
+  <testcase name="testRemainderField" classname="org.apache.commons.math3.dfp.DfpTest" time="0.014"/>
+  <testcase name="testCopySignDouble" classname="org.apache.commons.math3.dfp.DfpTest" time="0.007"/>
+  <testcase name="testLinearCombinationDF2" classname="org.apache.commons.math3.dfp.DfpTest" time="0.001"/>
+  <testcase name="testLinearCombinationDF3" classname="org.apache.commons.math3.dfp.DfpTest" time="0.002"/>
+  <testcase name="testLinearCombinationDF4" classname="org.apache.commons.math3.dfp.DfpTest" time="0.002"/>
+  <testcase name="testLinearCombinationFF2" classname="org.apache.commons.math3.dfp.DfpTest" time="0.001"/>
+  <testcase name="testLinearCombinationFF3" classname="org.apache.commons.math3.dfp.DfpTest" time="0.002"/>
+  <testcase name="testLinearCombinationFF4" classname="org.apache.commons.math3.dfp.DfpTest" time="0.002"/>
+  <testcase name="testEquals" classname="org.apache.commons.math3.dfp.DfpTest" time="0"/>
+  <testcase name="testCopySignField" classname="org.apache.commons.math3.dfp.DfpTest" time="0.008"/>
+  <testcase name="testPowField" classname="org.apache.commons.math3.dfp.DfpTest" time="0.036"/>
+  <testcase name="testPowInt" classname="org.apache.commons.math3.dfp.DfpTest" time="0.002"/>
+  <testcase name="testSignum" classname="org.apache.commons.math3.dfp.DfpTest" time="0"/>
+  <testcase name="testMultiplyField" classname="org.apache.commons.math3.dfp.DfpTest" time="0.009"/>
+  <testcase name="testSubtractField" classname="org.apache.commons.math3.dfp.DfpTest" time="0.008"/>
+</testsuite>

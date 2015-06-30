@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <jar destfile="/Users/nandu/Downloads/math (trunk)/target/commons-math3-3.4-SNAPSHOT-tools.jar">
+    <metainf dir="/Users/nandu/Downloads/math (trunk)" includes="NOTICE.txt,LICENSE.txt"/>
+    <manifest>
+      <attribute name="Specification-Title" value="Apache Commons Math Tools"/>
+      <attribute name="Implementation-Title" value="Apache Commons Math Tools"/>
+      <attribute name="Implementation-Vendor" value="The Apache Software Foundation"/>
+      <attribute name="Implementation-Version" value="3.4-SNAPSHOT"/>
+      <attribute name="Implementation-Vendor-Id" value="org.apache"/>
+      <attribute name="Implementation-Build" value="${scmBranch}@r${buildNumber}; 2015-06-28 00:41:19+0530"/>
+      <attribute name="X-Compile-Source-JDK" value="1.5"/>
+      <attribute name="X-Compile-Target-JDK" value="1.5"/>
+    </manifest>
+    <fileset dir="/Users/nandu/Downloads/math (trunk)/target/test-classes" includes="org/apache/commons/math3/PerfTestUtils*"/>
+  </jar>
+</target>
+</project>
